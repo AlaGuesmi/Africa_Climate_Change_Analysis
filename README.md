@@ -2,7 +2,24 @@
 
 This project explores **historical daily weather data** (time-series data) from multiple African countries (including Senegal, Tunisia, Egypt, Cameroon, and Angola) for the first week of January 1980. The objective is to analyze regional climate patterns, assess data quality, and generate visual insights into temperature, precipitation, and other meteorological variables.
 
-📊 **Project Highlights**:
+📁 Dataset Overview
+The dataset includes daily weather metrics such as:
+
+- Temperature
+
+- Precipitation
+
+- Dew Point
+
+- Wind Speed
+
+- Atmospheric Pressure
+
+- Cloud Cover
+
+ Each observation is tagged with the corresponding country and date.
+
+📊 **Analysis Highlights**:
 
 - Cleaning and preprocessing of raw weather data
   Handling Duplicates
@@ -18,5 +35,6 @@ This project explores **historical daily weather data** (time-series data) from 
 🛠️ **Tools Used**:
 
 - Python
-- Pandas, NumPy – data processing
-- Matplotlib, Seaborn – data visualization
+- Pandas, NumPy – Data manipulation and preprocessing
+- Matplotlib – Static plotting
+- Plotly Express, Graph Objects, Subplots – Interactive and multi-panel visualizations
